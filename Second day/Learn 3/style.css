@@ -1,0 +1,7 @@
+#head{background-color: #2bcbba; font-size: 30px; padding: 35px;}
+.body{background-color: tomato; font-size: 25px; padding: 30px; background-image: url("flower.jpg"); 
+    background-size: 200px 100px; background-repeat: no-repeat; background-position: right top; 
+}
+.body{
+    background: #ddd url("flower.jpg") no-repeat right top
+}
