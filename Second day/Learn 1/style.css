@@ -1,0 +1,14 @@
+h1{
+    color: red; font-size: 30px;
+}
+p{
+    color: green; font-size: 20px;
+}
+#Header{
+    background-color: bisque; font-size: 18px;
+}
+.Body{
+    background-color: greenyellow; font-size: 18px;
+}
+/*CSS Grouping*/
+h1, p, .Body, #Header{text-align: center;}
