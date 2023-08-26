@@ -1,0 +1,10 @@
+h1{color: rgb(255, 150, 100, 0.5); font-size: 30px }
+p{color: green; font-size: 20px; border: 2px solid blueviolet; background-color: beige}
+h5{color: black; font-size:  15px;}
+h4{color: gray; font-size: 13px;}
+
+
+#head{background-color: beige;}
+.body{background-color: antiquewhite;}
+
+h1, p, h5, h4, #head, .body{text-align: center;}
