@@ -1,0 +1,5 @@
+html, body{height: 100%;}
+div{
+    background: linear-gradient(-90deg, red, green); width: 100%; height: 100%; min-width: 600px;
+    max-height: 500px;
+}

@@ -1,0 +1,12 @@
+a{
+    color: green; text-decoration: underline;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: blue;
+}

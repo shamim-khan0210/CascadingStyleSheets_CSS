@@ -1,0 +1,10 @@
+h1{
+    font-family: sans-serif; font-style: italic;
+    font-variant: small-caps; text-transform: capitalize; font-weight: bold;
+}
+h2{
+    font-family: 'Times New Roman', serif;
+}
+h3{
+    font-family: monospace;
+}
