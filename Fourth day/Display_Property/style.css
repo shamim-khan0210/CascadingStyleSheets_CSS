@@ -1,0 +1,12 @@
+h1{
+    border: 5px solid red; display: inline; padding: 20px;
+}
+/*
+Span for inline display property
+*/
+span{
+    border: 3px solid green;
+}
+li{
+    display: inline-block;
+}

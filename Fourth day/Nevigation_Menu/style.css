@@ -1,0 +1,29 @@
+ul{
+    margin: 0; padding: 0; list-style: none;
+    text-align:  left;
+}
+li{
+    display: inline-block; margin-right: 5px; 
+    position: relative;
+}
+a{
+    background: #9b59b6; color: #fff; padding: 10px 25px;
+    display: block; text-decoration: none; border-radius: 5px;
+}
+a:hover{
+    background-color: #c0392b;
+}
+
+ul ul{
+    position: absolute; left: -999999px; top: 35px; width: 200px;
+}
+ul li:hover ul{
+    left: 0;
+}
+ul ul a{
+    border-radius: 0; background: #262626;
+    border-bottom: 1px solid #ddd;
+}
+ul ul a:hover{
+    background:  #0000ff;
+}
