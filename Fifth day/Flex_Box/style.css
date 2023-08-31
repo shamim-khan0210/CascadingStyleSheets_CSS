@@ -1,0 +1,35 @@
+*, *::after, *::before{box-sizing: border-box;}
+
+body{
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container div{
+    padding: 20px;
+    flex-basis: 30%;
+}
+.container .child1{
+    background: orange;
+    flex: 2; /* take space*/
+    order: 2;
+}
+.container .child2{
+    background: #d35400;
+    flex: 1;
+    order: 3;
+}
+.container .child3{
+    background: #8e44ad;
+    flex: 1;
+    order: 1;
+}
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+    .container{
+        flex-direction: column;
+    }
+}

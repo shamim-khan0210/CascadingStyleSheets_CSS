@@ -1,0 +1,33 @@
+*,*::after, *::before{box-sizing: border-box;}
+
+h1{
+
+}
+h1::after{
+    content: " Hasibul Hasan ";
+}
+h1::before{
+    content: "MD ";
+}
+/*
+    take a new body from css 
+*/
+
+.body{
+    background: green;
+    width: 500px;
+    height: 250px;
+    position: relative;
+}
+.body::before{
+    content: "";
+    width: 150px;
+    height: 150px;
+    background: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+
+}
